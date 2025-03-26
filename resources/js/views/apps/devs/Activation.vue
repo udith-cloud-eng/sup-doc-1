@@ -10,7 +10,7 @@
       <div class="accent-line"></div>
       <div class="hero-image-container">
         <img
-          src="/images/pricing.webp"
+          src="@/assets/images/pricing.webp"
           alt="Activation Banner"
           class="hero-image"
         />
@@ -20,7 +20,7 @@
     <!-- Activation Steps With Visual Elements -->
     <section class="activation-steps">
       <h2 class="section-heading">
-        <span class="section-icon"><img src="/images/rocket.gif" alt="rocket" style="width: 40px; height: 40px;"/></span>
+        <span class="section-icon"><img src="@/assets/images/rocket.gif" alt="rocket" style="width: 40px; height: 40px;"/></span>
         How Activation Works
       </h2>
       
@@ -37,7 +37,7 @@
         
         <div class="steps-image-container">
           <img
-            src="/images/sign-up-account.png"
+            src="@/assets/images/sign-up-account.png"
             alt="Activation Steps"
             class="steps-image"
           />
@@ -72,49 +72,49 @@
         <div class="carousel-slides">
           <div class="carousel-slide" :class="{ active: currentSlide === 0 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/analytics.gif" alt="analytics" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/analytics.gif" alt="analytics" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Real-time Analytics</h3>
               <p class="feature-description">Monitor performance metrics and make data-driven decisions with comprehensive dashboards.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 1 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Team Collaboration</h3>
               <p class="feature-description">Connect your entire team with integrated communication and task management tools.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 2 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/password.gif" alt="password" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/password.gif" alt="password" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Role-based Access</h3>
               <p class="feature-description">Control who sees what with customizable permission levels for employees and customers.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 3 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/companalysis.gif" alt="icon" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/companalysis.gif" alt="icon" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Comprehensive Part Tracking</h3>
               <p class="feature-description">Comprehensive Part Tracking delivers real-time visibility and analytics, ensuring every component meets quality, compliance, and efficiency standards.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 4 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Shop floor Management</h3>
               <p class="feature-description">Shop Floor Management optimizes production with real-time tracking and streamlined workflows, enhancing overall efficiency.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 5 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Go Paperless with Digital Job Cards</h3>
               <p class="feature-description">Go Paperless with Digital Job Cards: Streamline operations by replacing paper with efficient, digital task management.</p>
             </div>
           </div>
           <div class="carousel-slide" :class="{ active: currentSlide === 6 }">
             <div class="feature-card">
-              <div class="feature-icon"><img src="/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
+              <div class="feature-icon"><img src="@/assets/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
               <h3 class="feature-title">Agile ERP and CRM Tools</h3>
               <p class="feature-description">Agile ERP and CRM Tools streamline business processes and elevate customer engagement with flexible, integrated solutions.</p>
             </div>
