@@ -10,7 +10,7 @@
       <div class="accent-line"></div>
       <div class="hero-image-container">
         <img
-          src="/images/pricing.png"
+          src="/images/pricing.webp"
           alt="Activation Banner"
           class="hero-image"
         />
