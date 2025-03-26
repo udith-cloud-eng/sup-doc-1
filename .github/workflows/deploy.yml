@@ -20,6 +20,8 @@ jobs:
 
     - name: Install Vue.js dependencies
       run: npm install --legacy-peer-deps
+    - name: Grant execute permission to vite
+      run: chmod +x ./node_modules/.bin/vite
 
     - name: Build Vue.js application
       run: npm run build
