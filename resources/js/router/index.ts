@@ -396,12 +396,12 @@ const routes: Array<RouteRecordRaw> = [
             component: () => import("@/views/apps/devs/Knowledge2.vue"),
             meta: { pageTitle: "Activation" },
           },
-          {
-            path: "support",
-            name: "customer-devs-support",
-            component: () => import("@/views/apps/devs/Support.vue"),
-            meta: { pageTitle: "Activation" },
-          },
+          // {
+          //   path: "support",
+          //   name: "customer-devs-support",
+          //   component: () => import("@/views/apps/devs/Support.vue"),
+          //   meta: { pageTitle: "Activation" },
+          // },
         ]
       },
     ],
