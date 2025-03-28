@@ -26,7 +26,7 @@ jobs:
       run: |
         npm install -g eslint
         eslint --fix .
-      working-directory: ./vue
+      working-directory: .
 
     - name: Grant execute permission to vite
       run: chmod +x ./node_modules/.bin/vite
@@ -45,7 +45,7 @@ jobs:
           sudo rm -rf /opt/bitnami/apache/htdocs/*
           
           # Copy the built Vue.js files to the web directory
-          sudo cp -r ${{ github.workspace }}/vue/dist/* /opt/bitnami/apache/htdocs/
+          sudo cp -r ${{ github.workspace }}/dist/* /opt/bitnami/apache/htdocs/
           
           # Set proper permissions
           sudo chown -R bitnami:bitnami /opt/bitnami/apache/htdocs
