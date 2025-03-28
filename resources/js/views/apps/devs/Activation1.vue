@@ -100,7 +100,7 @@
             </div>
             <div class="carousel-slide" :class="{ active: currentSlide === 4 }">
               <div class="feature-card">
-                <div class="feature-icon"><img src="/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
+                <div class="feature-icon"><img src="@/../../public/images/teamwork.gif" alt="teamwork" style="width: 64px; height: 64px;"/></div>
                 <h3 class="feature-title">Shop floor Management</h3>
                 <p class="feature-description">Shop Floor Management optimizes production with real-time tracking and streamlined workflows, enhancing overall efficiency.</p>
               </div>
