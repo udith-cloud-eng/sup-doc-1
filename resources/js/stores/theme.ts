@@ -16,7 +16,7 @@ export const useThemeStore = defineStore("theme", () => {
     localStorage.setItem(THEME_MENU_MODE_LS_KEY, currentMode);
     mode.value = currentMode;
 
-    if (currentMode === "system") {
+    if (currentMode === "light") {
       currentMode = ThemeModeComponent.getSystemMode();
     }
 
